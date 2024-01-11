@@ -168,8 +168,9 @@ li a:hover {
 
 @media screen and (min-width: 600px) and (max-width: 769px) {
     .navigation {
-        top: 50;
-        position: absolute;
+        bottom: 0;
+        right: 0;
+        position: fixed;
     }
 
     .below-header {
@@ -215,8 +216,9 @@ li a:hover {
 
 @media screen and (max-width: 669px) {
     .navigation {
-        top: 50px;
-        position: absolute;
+        bottom: 0;
+        right: 0;
+        position: fixed;
     }
      
     .below-header {
