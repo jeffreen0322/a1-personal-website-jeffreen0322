@@ -75,8 +75,9 @@ Another source I used, while not online, is a personal website I've created duri
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-A classmate I consulted with was Wesley Luong for this assignment. The only thing we discussed relating to the project was how to get the W3C validator to work on our website.
 
+A classmate I consulted with was Wesley Luong for this assignment. The only thing we discussed relating to the project was how to get the W3C validator to work on our website.
+(Also please note that jeffreen0322 and jeffreen3585 are both of my github accounts, one associated with UCI (3585) and the other my personal account (0322))
 
 6. Is there anything special we need to know in order to run your code?
 
