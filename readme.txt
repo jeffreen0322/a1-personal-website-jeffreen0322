@@ -22,16 +22,47 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
++ <p> tags - text to explain certain things about myself and purpose of my website.
++ <strong>
++ Images - to compliment and add visual appeal to the website.
+  > Pictures of myself
++ Extensive utilization of <div> tags to separate sections of the website.
++ Navigation bar
++ Hyperlinks
++ <h> tags / headers
++ Footer
++ Contact Tab
+  > Forms + submission mechanism
++ Couple of inline styling
++ External CSS styling
 
 
 
 (b) CSS features
-
++ Different font styling: google fonts
+  > Headers of all types: 'Montserrat', sans-serif
+  > Pargaphs, bold, strong: 'Open Sans', sans-serif
++ Hover highlights: certain buttons and icons when hovered over, will change colors.
++ Vertical representation of navigation bar
++ Extensive use of flex display
+  > gap attribute between elements in the same flex display
+  > flex-direction attribute
++ Grid display: see video players
+  > gap attribute between elements in the same grid display
++ Adjusting padding for elements on the page
++ Center alignments: align-items and justify-content'
++ Border radius adjustments: To make pictures and videos have more rounded curves
++ color + background-color
++ Borders
 
 
 (c) Advanced features
-
-
++ Certain navigation elements such as "About" and "Project" upon clicking will automatically scroll to appropriate sections.
++ Bootstrap icons
++ CSS hover attribute "animations"
++ Embedded videos/playlist (Youtube)
++ list-style-type attribute: removes bulletpoints
++ google fonts
 
 3. How long, in hours, did it take you to complete this assignment?
 
@@ -39,11 +70,15 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
 
+My main source of consultation that assisted in the completion of this assignment is W3Schools: https://www.w3schools.com
+
+Another source I used, while not online, is a personal website I've created during the summer, and essentially re-created it, making stylistic changes and additional content.
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-
+A classmate I consulted with was Wesley Luong for this assignment. The only thing we discussed relating to the project was how to get the W3C validator to work on our website.
+(Also please note that jeffreen0322 and jeffreen3585 are both of my github accounts, one associated with UCI (3585) and the other my personal account (0322))
 
 6. Is there anything special we need to know in order to run your code?
 
