@@ -6,15 +6,23 @@ body {
     background-color: #666363 !important;
 }
 
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1,h2 {
     color: #111!important;
+}
+
+p, ul, li, b, strong {
+    font-family: 'Open Sans', sans-serif;
 }
 
 iframe {
     border-radius: 10%;
 }
 
-li a {
+.index a {
     display: block;
     color: white;
     float: left;
@@ -24,13 +32,13 @@ li a {
 }
   
   /* Change the link color to #111 (black) on hover */
-li a:hover {
+.index a:hover {
     background-color: #111;
 }
 
 .profile-picture > img {    
     height: 250px;
-    border: solid #111 2px;
+    border: solid whitesmoke 2px;
     border-radius: 50%;
     /* border: solid rgb(73, 142, 211) 2px; */
 }
@@ -108,8 +116,9 @@ li a:hover {
 }
 
 .project-grid {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     justify-content: center;
     gap: 2rem;
 }

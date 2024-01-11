@@ -14,13 +14,16 @@ EMAIL: jeffreen@uci.edu
    <link rel="stylesheet" href="styles/style.css">
    <!-- you would also link to Bootstrap here! -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <title>Jeffrey E. Nguyen</title>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap">
+
+   <title>Jeffrey E. Nguyen</title>
 </head>
 <body>
   <div class="navigation">
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Project</a></li>
+    <ul class="index">
+      <li class="index"><a href="#about" style="padding-right: 28px;">About</a></li>
+      <li class="index"><a href="#projects" style="padding-right: 20px;">Project</a></li>
+      <li class="index"><a href="contact.html">Contact</a></li>
     </ul>
   </div>
 
@@ -90,19 +93,22 @@ EMAIL: jeffreen@uci.edu
         My hobbies and interests include binge-watching anime, playing video games, and eating to my heart's content! A few of my favorite animes include Steins;Gate, Clannad, The Garden of Sinners, and the Fate/stay night franchise. The main game I play and unsuccessfully grind is Valorant. My favorite food cuisines being Vietnamese and Japanese food, though as long as I can get my hands on anything to eat, I have no problems adding it to this list!
         <br>
         <br>
-        My goals in the short term are to graduate from university and earn my degree in my desired major, Computer Science. In the long term, my goal is to get employed in a promising position as a software engineer; whether it be in Google, Microsoft, or small businesses that need my craft! I hope to establish myself financially and give back to my parents (our dream is to own a home), and perhaps even start a family!
+        My goals in the short term are to graduate from university and ea rn my degree in my desired major, Computer Science. In the long term, my goal is to get employed in a promising position as a software engineer; whether it be in Google, Microsoft, or small businesses that need my craft! I hope to establish myself financially and give back to my parents (our dream is to own a home), and perhaps even start a family!
       </p>
     </div>
   </div>
 
   <div class="projects" id="projects">
     <h2>Projects</h2>
-    <p>Here are a series of demos and repositories of various projects I've worked on!</p>
+    <p>Here are some demos and repositories of various projects I've worked on!</p>
     <div class="project-grid">
       <div class="todo-project proj">
         <h3>Todo List</h3>
         <!-- Insert embedded video here -->
         <iframe width="560" height="315" src="https://www.youtube.com/embed/-9r22H3V-5g?si=-3f_rvIW5kPhN3FW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <b>Technologies Used:</b> <strong>HTML, CSS, Javascript (EJS), Express.js, Node.js</strong>
+        <p>A front-end website utilizing HTML, CSS, and javascript. This project exemplifies the utilization of node.js and express.js to send and recieve data for client-server communication. This application is a simple to do list which allows users to type an input and add it into the list of things to do. Users are able to clear the list or cross out items individually.</p>
+        
         <!-- Insert Github Button/Icon -->
         <a class="social-icon code-icon" href="https://github.com/jeffreen0322/todoList" alt="github repository for todo list">
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-code" viewBox="0 0 16 16">
@@ -115,6 +121,9 @@ EMAIL: jeffreen@uci.edu
         <h3>Fabflix</h3>
         <!-- Insert embedded video here -->
         <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=HTyjOi0D2iapuw30&amp;list=PLWMGgD1TjCRFNvk1VDFasJeQac9YO-CSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <b>Technologies Used:</b> <strong>HTML, CSS, Javascript, Java (+ Servlets), Kotlin, SQL, JQuery, AJAX, Tomcat, AWS</strong>
+        <p>A Fullstack webapp my partner Houssin Saadeh and I developed. Referencing from sites like IMDB, Fabflix hosts a catalogue of films, containing information such as: title, actors, genres, ratings, etc. Clients browse movies and purchase them and has supports for administrators. Administrators can add movies, stars, or genres into the database.</p>
+
         <!-- Insert Github Button/Icon -->
         <a class="social-icon code-icon" href="https://github.com/jeffreen0322/fabflix" alt="github repository for fabflix">
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-code" viewBox="0 0 16 16">
