@@ -39,7 +39,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 (b) CSS features
-+ Different font styling
++ Different font styling: google fonts
   > Headers of all types: 'Montserrat', sans-serif
   > Pargaphs, bold, strong: 'Open Sans', sans-serif
 + Hover highlights: certain buttons and icons when hovered over, will change colors.
@@ -62,6 +62,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 + CSS hover attribute "animations"
 + Embedded videos/playlist (Youtube)
 + list-style-type attribute: removes bulletpoints
++ google fonts
 
 3. How long, in hours, did it take you to complete this assignment?
 
