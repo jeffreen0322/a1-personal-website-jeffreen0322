@@ -22,7 +22,7 @@ iframe {
     border-radius: 10%;
 }
 
-.index a {
+li a {
     display: block;
     color: white;
     float: left;
@@ -32,7 +32,7 @@ iframe {
 }
   
   /* Change the link color to #111 (black) on hover */
-.index a:hover {
+li a:hover {
     background-color: #111;
 }
 
@@ -92,6 +92,10 @@ iframe {
     color: #111;
 }
 
+.socials2, .resume2 {
+    display: none;
+}
+
 .about, .projects {
     background-color: #afabab;
     padding: 3%;
@@ -104,6 +108,10 @@ iframe {
     gap: 3rem;
 }
 
+.about-content > img {
+    height: 350px;
+}
+
 .projects {
     padding-top: 0%;
     padding-left: 3%;
@@ -111,9 +119,7 @@ iframe {
     padding-bottom: 3%;    
 }
 
-.about-content > img {
-    height: 350px;
-}
+
 
 .project-grid {
     display: grid;
@@ -127,4 +133,123 @@ iframe {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+    .project-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .proj > p {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 999px) {
+    .project-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .proj > p {
+        width: 50%;
+    }
+
+    .about-content {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 769px) {
+    .below-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 5%;
+        gap: 1rem;
+    }
+
+    .resume, .socials {
+        display: none;
+    }
+
+    .resume2, .socials2 {
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+    }
+    .project-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .proj > p {
+        width: 50%;
+    }
+
+    .about-content {
+        display: block;
+        width: 95%;
+    }
+
+    .about-content > img {
+        float: left;
+        height: 300px;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 669px) {
+    .below-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 5%;
+        gap: 1rem;
+    }
+
+    .resume, .socials {
+        display: none;
+    }
+
+    .resume2, .socials2 {
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+    }
+    .project-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .proj > p {
+        width: 50%;
+    }
+
+    .about-content {
+        display: block;
+        width: 95%;
+    }
+
+    .about-content > img {
+        float: left;
+        height: 300px;
+        padding-right: 5%;
+    }
+    
+    iframe {
+        width: 75%;
+    }
 }

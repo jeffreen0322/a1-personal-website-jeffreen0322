@@ -1,0 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #666363 !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2 {
+    color: #111!important;
+}
+
+p, ul, li, b, strong {
+    font-family: 'Open Sans', sans-serif;
+}
