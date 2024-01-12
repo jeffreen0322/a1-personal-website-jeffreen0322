@@ -235,6 +235,10 @@ li a:hover {
         height: 300px;
         padding-right: 5%;
     }
+
+    #about-li {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 669px) {
@@ -288,5 +292,9 @@ li a:hover {
 
     .proj > a > img {
         width: 75%;
+    }
+
+    #about-li {
+        display: none;
     }
 }
