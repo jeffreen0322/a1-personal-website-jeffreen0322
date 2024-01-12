@@ -12,6 +12,8 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 I've previously made a personal website that coincidentally fulfills many of the requirements of this assignment. I have decided I will not use that website as my submission, but rather create a new one, referencing the previous portfolio and make substantial changes and additions. This website will be my new official portfolio site, and the latter will be out of commission. 
 
+I have also shared this repository with my personal github account, jeffreen0322, for future purposes when I wish to make a clone of this repo. Jeffreen3585 is my UCI associated github account.
+
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 12.5/13
@@ -62,7 +64,6 @@ I'm roughly estimating that I took 16 hours on this assignment.
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
 A classmate I consulted with was Wesley Luong for this assignment. The only thing we discussed relating to the project was how to get the W3C validator to work on our website.
-(Also please note that jeffreen0322 and jeffreen3585 are both of my github accounts, one associated with UCI (3585) and the other my personal account (0322))
 
 6. Is there anything special we need to know in order to run your code?
 
