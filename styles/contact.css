@@ -11,9 +11,10 @@ h1, h2, h3 {
 }
 
 h1,h2 {
-    color: #111!important;
+    color: whitesmoke !important;
 }
 
-p, ul, li, b, strong {
+p, ul, li, b, strong, label {
     font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
 }
