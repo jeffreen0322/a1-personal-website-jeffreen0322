@@ -136,6 +136,16 @@ li a:hover {
     gap: 2rem;
 }
 
+.proj > a {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj > a > img {
+    border-radius: 10%;
+}
+
 @media screen and (min-width: 1000px) and (max-width: 1199px) {
     .project-grid {
         display: flex;
@@ -262,6 +272,10 @@ li a:hover {
     }
 
     iframe {
+        width: 75%;
+    }
+
+    .proj > a > img {
         width: 75%;
     }
 }
