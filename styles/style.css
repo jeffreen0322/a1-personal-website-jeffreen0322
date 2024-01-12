@@ -72,7 +72,8 @@ li a:hover {
     align-items: center;
 }
 
-.profile-ethos > ul {
+.profile-ethos > ul > li {
+    list-style-type: none;
     justify-content: center;
     text-align: center;
     color: whitesmoke;
