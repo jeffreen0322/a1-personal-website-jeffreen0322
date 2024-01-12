@@ -8,6 +8,10 @@ While learning from examples is encouraged, attempting to pass an existing proje
 
 Talking to classmates about class material, assignment requirements, etc. is a great way to verify ideas and get feedback. But this distinctly does *not* permit attempting to pass off someone else’s code as your own. Talking over ideas and approaches is allowed, but the work that you produce and submit must be your own.
 
+### IMPORTANT STUDENT'S NOTE:
+
+I've previously made a personal website that coincidentally fulfills many of the requirements of this assignment. I have decided I will not use that website as my submission, but rather create a new one, referencing the previous portfolio and make substantial changes and additions. This website will be my new official portfolio site, and the latter will be out of commission. 
+
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 12.5/13
