@@ -1,8 +1,10 @@
-var sideBarHidden = false;
 var menu = document.getElementById("menu");
+var menuItems = document.getElementsByClassName("index");
+var sideBarHidden = menuItems[0].getAttribute("display") == null;
+
+console.log(sideBarHidden);
 
 menu.addEventListener("click", (event) => {
-    var menuItems = document.getElementsByClassName("index");
 
     if(sideBarHidden) {
         sideBarHidden = false;
