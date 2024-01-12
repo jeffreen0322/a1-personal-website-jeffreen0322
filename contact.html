@@ -23,15 +23,16 @@
 
     <div class="contact-form">
         <form class="" action="mailto:jeffreyenguyen@gmail.com" method="post" enctype="text/plain">
-        <label>Your Name</label><br>
-        <input type="text" name="yourName" value="">
+        <label for="nameInput">Your Name</label><br>
+        <input id="nameInput" type="text" name="name" value="">
         <br><br>
-        <label>Your Email</label><br>
-        <input type="text" name="yourEmail" value="">
+        <label for="emailInput">Your Email</label><br>
+        <input id="emailInput" type="text" name="email" value="">
         <br><br>
-        <label>Your Message</label><br>
-        <textarea name="yourMessage" rows="8" cols="80"></textarea><br>
-        <input type="submit">
+        <label for="messageInput">Your Message</label><br>
+        <textarea id="messageInput" name="message" rows="8" cols="80"></textarea><br>
+        <label for="submission">Finished?</label>
+        <input id="submission" type="submit">
         </form>
     </div>  
   </body>
