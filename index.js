@@ -1,5 +1,11 @@
-var sideBarHidden = false;
+var sideBarHidden;
 var menu = document.getElementById("menu");
+
+if(window.innerWidth <= 769) {
+    sideBarHidden = true;
+} else {
+    sideBarHidden = false;
+}
 
 menu.addEventListener("click", (event) => {
     var menuItems = document.getElementsByClassName("index");
