@@ -22,55 +22,35 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-+ <p> tags - text to explain certain things about myself and purpose of my website.
-+ <strong>
-+ Images - to compliment and add visual appeal to the website.
-  > Pictures of myself
-+ Extensive utilization of <div> tags to separate sections of the website.
-+ Navigation bar
-+ Hyperlinks
-+ <h> tags / headers
-+ Footer
-+ Contact Tab
-  > Forms + submission mechanism
-+ Couple of inline styling
-+ External CSS styling
 
-
+The basic features I've included in this project are the following: 
++ At least one image, with descriptive alt attribute(s)
++ Headings and paragraph text
++ Links to external pages (hyperlinks/buttons)
++ Multiple pages (Portfolio and Contact pages)
++ Google imported fonts
 
 (b) CSS features
-+ Different font styling: google fonts
++ Modification to padding and margins to indent content and enhance readability.
++ Adding custom fonts from Google fonts
   > Headers of all types: 'Montserrat', sans-serif
   > Pargaphs, bold, strong: 'Open Sans', sans-serif
-+ Hover highlights: certain buttons and icons when hovered over, will change colors.
-+ Vertical representation of navigation bar
-+ Extensive use of flex display
-  > gap attribute between elements in the same flex display
-  > flex-direction attribute
-+ Grid display: see video players
-  > gap attribute between elements in the same grid display
-+ Adjusting padding for elements on the page
-+ Center alignments: align-items and justify-content'
-+ Border radius adjustments: To make pictures and videos have more rounded curves
-+ color + background-color
-+ Borders
++ Utilized bootstrap for icons
 
 
 (c) Advanced features
-+ Certain navigation elements such as "About" and "Project" upon clicking will automatically scroll to appropriate sections.
-+ Bootstrap icons
-+ CSS hover attribute "animations"
-+ Embedded videos/playlist (Youtube)
-+ list-style-type attribute: removes bulletpoints
-+ google fonts
++ Contact Page to leverage HTML forms.
++ Embedded video media
++ Included page sidebar that allows quick scrolling to section and navigation to new page (contact)
+
 
 3. How long, in hours, did it take you to complete this assignment?
 
 
-
 4. What online resources did you consult when completing this assignment? (list specific URLs)
 
-My main source of consultation that assisted in the completion of this assignment is W3Schools: https://www.w3schools.com
+My main source of consultation that assisted me in this assignment in regards to HTML/CSS concepts is: https://www.w3schools.com
+For the icons found in my website, I've utilized: https://icons.getbootstrap.com 
 
 Another source I used, while not online, is a personal website I've created during the summer, and essentially re-created it, making stylistic changes and additional content.
 
