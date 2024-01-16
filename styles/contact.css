@@ -3,7 +3,7 @@ html{
 }
 
 body {
-    background-color: #666363 !important;
+    background-image: url("https://itclub.stcb.edu.lk/wp-content/uploads/2022/12/sdas.jpg");
 }
 
 h1, h2, h3 {
@@ -17,4 +17,8 @@ h1,h2 {
 p, ul, li, b, strong, label {
     font-family: 'Open Sans', sans-serif;
     color: whitesmoke !important;
+}
+
+.contact-space {
+    background-color: rgba(117, 116, 116, 0.7);
 }
