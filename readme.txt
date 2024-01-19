@@ -10,9 +10,9 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 ### IMPORTANT STUDENT'S NOTE:
 
-I've previously made a personal website that coincidentally fulfills many of the requirements of this assignment. I have decided I will not use that website as my submission, but rather create a new one, referencing the previous portfolio and make substantial changes and additions. This website will be my new official portfolio site, and the latter will be out of commission. 
+I've previously made a personal website that coincidentally fulfills many of the requirements of this assignment. I have decided I will not use that website as my submission, but rather create a new one, referencing the previous portfolio and making substantial changes and additions. This website will be my new official portfolio site, and the latter will be out of commission. 
 
-I have also shared this repository with my personal github account, jeffreen0322, for future purposes when I wish to make a clone of this repo. Jeffreen3585 is my UCI associated github account.
+I have also shared this repository with my personal GitHub account, jeffreen0322, for future purposes when I wish to make a clone of this repo. Jeffreen3585 is my UCI associated github account.
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
@@ -22,8 +22,10 @@ I have also shared this repository with my personal github account, jeffreen0322
 - 2/2 Basic CSS styling
 - 2/2 Advanced feature
 - 3/3 Responsive layout
-- 0.5/1 Passes validation checks
+- 1/1 Passes validation checks
 - 2/2 Embraces spirit of the assignment
+
+While I did not pass one error, specifically on my contact.html page, the error suggests I need a label to be resolved (given from AChecker), however it is clear enough and doesn't need to be resolved (from UI side).
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
@@ -37,7 +39,7 @@ The basic features I've included in this project are the following:
 + Google imported fonts
 
 (b) CSS features
-+ Modification to padding and margins to indent content and enhance readability.
++ Modification of padding and margins to indent content and enhance readability.
 + Adding custom fonts from Google fonts
   > Headers of all types: 'Montserrat', sans-serif
   > Pargaphs, bold, strong: 'Open Sans', sans-serif
