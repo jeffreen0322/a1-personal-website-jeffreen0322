@@ -11,7 +11,7 @@ h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1,h2, h3, h4, em, p, ul, li, b, strong {
+a, h1,h2, h3, h4, em, p, ul, li, b, strong {
     color: #edf0f1 !important;
 }
 
@@ -34,8 +34,12 @@ li a {
   
   /* Change the link color to #111 (black) on hover */
 li a:hover {
-    color: #111;
+    color: #111 !important;
     background-color: rgb(238, 209, 154);
+}
+
+svg:hover {
+    color: rgb(238, 209, 154);
 }
 
 .profile-picture > img {    
@@ -87,10 +91,6 @@ li a:hover {
 
 .social-icon {
     color: whitesmoke;
-}
-
-.social-icon:hover {
-    color: rgb(238, 209, 154);
 }
 
 .socials2, .resume2 {
@@ -164,16 +164,18 @@ li a:hover {
     cursor: pointer;
 }
 
+.footer {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 @media screen and (min-width: 1000px) and (max-width: 1199px) {
     .project-grid {
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 2rem;
-    }
-
-    .proj > p {
-        width: 50%;
     }
 }
 
@@ -183,10 +185,6 @@ li a:hover {
         flex-direction: column;
         justify-content: center;
         gap: 2rem;
-    }
-
-    .proj > p {
-        width: 50%;
     }
 
     .about-content {
@@ -227,10 +225,6 @@ li a:hover {
         flex-direction: column;
         justify-content: center;
         gap: 2rem;
-    }
-
-    .proj > p {
-        width: 50%;
     }
 
     .about-content {
@@ -282,10 +276,6 @@ li a:hover {
         flex-direction: column;
         justify-content: center;
         gap: 2rem;
-    }
-
-    .proj > p {
-        width: 50%;
     }
 
     .about-content {
