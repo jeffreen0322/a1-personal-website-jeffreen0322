@@ -14,7 +14,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 2. I have also shared this repository with my personal GitHub account, jeffreen0322, for future purposes when I wish to make a clone of this repo. Jeffreen3585 is my UCI associated github account.
 
-3. a1-personal-website-jeffreen3585/validation contains 6 screenshots of the validationn process. Any validation image that ends with the number 1, it refers to index.html (main page). If the image file ends with a number 2m it refers to contact.html (contact page).
+3. a1-personal-website-jeffreen3585/validation contains 6 screenshots of the validation process. Any validation image that ends with the number 1, it refers to index.html (main page). If the image file ends with a number 2m it refers to contact.html (contact page).
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
