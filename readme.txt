@@ -10,11 +10,13 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 ### IMPORTANT STUDENT'S NOTE:
 
-1. I've previously made a personal website that coincidentally fulfills many of the requirements of this assignment. I have decided I will not use that website as my submission, but rather create a new one, referencing the previous portfolio and making substantial changes and additions. This website will be my new official portfolio site, and the latter will be out of commission. 
+a. I've previously made a personal website that coincidentally fulfills many of the requirements of this assignment. I have decided I will not use that website as my submission, but rather create a new one, referencing the previous portfolio and making substantial changes and additions. This website will be my new official portfolio site, and the latter will be out of commission. 
 
-2. I have also shared this repository with my personal GitHub account, jeffreen0322, for future purposes when I wish to make a clone of this repo. Jeffreen3585 is my UCI associated github account.
+b. I have also shared this repository with my personal GitHub account, jeffreen0322, for future purposes when I wish to make a clone of this repo. Jeffreen3585 is my UCI associated github account.
 
-3. a1-personal-website-jeffreen3585/validation contains 6 screenshots of the validation process. Any validation image that ends with the number 1, it refers to index.html (main page). If the image file ends with a number 2, it refers to contact.html (contact page).
+c. a1-personal-website-jeffreen3585/validation contains 6 screenshots of the validation process. Any validation image that ends with the number 1, it refers to index.html (main page). If the image file ends with a number 2, it refers to contact.html (contact page).
+
+d. There is a javascript file called "index.js" that serves the purpose of giving functionality to sidebar.
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
