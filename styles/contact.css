@@ -12,6 +12,7 @@ h1, h2, h3 {
 
 h1,h2 {
     color: whitesmoke !important;
+    user-select: none;
 }
 
 p, ul, li, b, strong, label {
@@ -19,6 +20,58 @@ p, ul, li, b, strong, label {
     color: whitesmoke !important;
 }
 
+svg {
+    color: whitesmoke;
+}
+
+svg:hover {
+    color: #111;
+    background-color: rgb(238, 209, 154);
+}
+
+.navigation {
+    position: fixed;
+}
+
+.navigation > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.index > li a:hover {
+    color: #111 !important;
+    background-color: rgb(238, 209, 154);
+}
+
+.index > li a {
+    display: block;
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.index {
+    user-select: none;
+}
+
 .contact-space {
     background-color: rgba(117, 116, 116, 0.7);
+    padding-top: 3%;
+    padding-left: 7%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 769px) {
+    .index {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 669px) {
+    .index {
+        display: none;
+    }
 }
