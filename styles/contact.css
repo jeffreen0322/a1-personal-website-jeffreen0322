@@ -6,8 +6,9 @@ body {
     background-image: url("https://itclub.stcb.edu.lk/wp-content/uploads/2022/12/sdas.jpg");
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
+    color: whitesmoke !important;
 }
 
 h1,h2 {
@@ -62,6 +63,13 @@ svg:hover {
     background-color: rgba(117, 116, 116, 0.7);
     padding-top: 3%;
     padding-left: 7%;
+    padding-bottom: 3%;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 @media screen and (min-width: 600px) and (max-width: 769px) {
