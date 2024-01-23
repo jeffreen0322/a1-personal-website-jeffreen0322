@@ -14,9 +14,7 @@ a. I've previously made a personal website that coincidentally fulfills many of 
 
 b. I have also shared this repository with my personal GitHub account, jeffreen0322, for future purposes when I wish to make a clone of this repo. Jeffreen3585 is my UCI associated github account.
 
-c. a1-personal-website-jeffreen3585/validation contains 6 screenshots of the validation process. Any validation image that ends with the number 1, it refers to index.html (main page). If the image file ends with a number 2, it refers to contact.html (contact page).
-
-d. There is a javascript file called "index.js" that serves the purpose of giving functionality to sidebar.
+c. There is a javascript file called "index.js" that serves the purpose of giving functionality to sidebar.
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
@@ -29,7 +27,7 @@ d. There is a javascript file called "index.js" that serves the purpose of givin
 - 1/1 Passes validation checks
 - 2/2 Embraces spirit of the assignment
 
-While I did not pass one error, specifically on my contact.html page, the error suggests I need a label to be resolved (given from AChecker), however it is clear enough and doesn't need to be resolved (from UI side).
+While I did not pass two errors, specifically on my contact.html page (view valid-accessibility-contact.jpg), the errors suggests I need to have an h1 tag before an h2, however I think this is negligible because it's of personal preference. Hence I did not resolve the error. The other error suggests a label to be resolved (given from AChecker), however it is clear enough and doesn't need to be resolved (from UI side).
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
