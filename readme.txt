@@ -18,7 +18,7 @@ c. There is a javascript file called "index.js" that serves the purpose of givin
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-12.5/13
+13/13
 - 1/1 Readme
 - 2/2 Basic HTML content
 - 2/2 Basic CSS styling
