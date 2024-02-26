@@ -1,3 +1,20 @@
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    80% {
+        opacity: 0.5;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -87,6 +104,7 @@ svg:hover {
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    animation: fadeInAnimation 1200ms 800ms backwards;
 }
 
 .social-icon {
@@ -103,7 +121,7 @@ svg:hover {
     padding-top: 5%;
     padding-left: 7%;
     padding-right: 7%;
-    padding-bottom: 5%
+    padding-bottom: 5%;
 }
 
 .about > h2 {
@@ -218,6 +236,7 @@ svg:hover {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 1rem;
+        animation: fadeInAnimation 1200ms 800ms backwards;
     }
 
     .project-grid {
@@ -269,6 +288,7 @@ svg:hover {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 1rem;
+        animation: fadeInAnimation 1200ms 800ms backwards;
     }
 
     .project-grid {
