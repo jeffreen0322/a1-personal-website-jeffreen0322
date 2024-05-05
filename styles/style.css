@@ -115,7 +115,7 @@ svg:hover {
     display: none;
 }
 
-.about, .projects {
+.about, .projects, .technologies {
     background: rgba(0,0,0,0.5);
     background-color: rgba(117, 116, 116, 0.7);
     padding-top: 5%;
@@ -170,6 +170,20 @@ svg:hover {
 
 .proj > a > img {
     border-radius: 10%;
+}
+
+.technologies {
+    background-color: rgba(117, 116, 116, 0.7);
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills > img {
+    animation: fadeInAnimation 1200ms 800ms backwards;
+    height: 100px;
+    padding: 1rem;
 }
 
 #menu {
