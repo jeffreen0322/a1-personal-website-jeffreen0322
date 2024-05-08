@@ -172,6 +172,14 @@ svg:hover {
     border-radius: 10%;
 }
 
+.proj > iframe:hover, .proj > a > img:hover {
+    transform: scale(1.1);
+}
+
+.code-icon:hover {
+    transform: scale(1.2);
+}
+
 .technologies {
     background-color: rgba(117, 116, 116, 0.7);
 }
