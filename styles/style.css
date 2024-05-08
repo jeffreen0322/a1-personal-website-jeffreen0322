@@ -150,7 +150,7 @@ svg:hover {
 .project-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     gap: 2rem;
 }
@@ -328,7 +328,8 @@ svg:hover {
     }
 
     .proj > a > img {
-        width: 75%;
+        height: 200px;
+        width: auto;
     }
 
     #about-li {
