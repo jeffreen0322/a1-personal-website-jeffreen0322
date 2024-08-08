@@ -172,12 +172,13 @@ svg:hover {
     border-radius: 10%;
 }
 
-.proj > iframe:hover, .proj > a > img:hover {
-    transform: scale(1.1);
+.clickable:hover {
+    transform: scale(1.2);
 }
 
-.code-icon:hover {
-    transform: scale(1.2);
+.unclickable {
+    pointer-events: none;
+    opacity: 0.5;
 }
 
 .technologies {
